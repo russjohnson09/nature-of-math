@@ -19,5 +19,55 @@
 
 </head>
 <body>
-$x^2$
+Book I I explored what we now call "geometric algebra." That is, it
+framed in geometric terms certain relationships that now are most easily
+translated into algebraic equations . Of course, the notion of algebra was
+foreign to the Greeks, and its appearance as a formal system lay centuries
+in the future.
+
+PROPOSITION 11.4 If a straight line be cut at random, the square on the
+whole is equal to the squares on the segments and twice the rectangle
+contained by the segments .
+
+This is written more simply as $(a + b)^2= a^2 +b^2 + 2 ab = a^2 + 2ab + b^2$
+
+Yet the equivalence of his geo­metric statement and its algebraic counterpart is clear. Much of Book I I
+was o f this nature .
+
+
+nor did Book I I I contain the familiar results for a cirde's circumference
+$( C = \pi D)$ or area $(A = \pi r^2)$ . A full treatment of these latter topics would have to wait
+until Archamedias.
+
+
+In fact, while Euclid did not explicitly say so, most subsequent mathe­
+maticians assumed that his were the only constructible regular polygons
+and that any others were simply beyond the capability of compass and
+straightedge.
+
+
+It was thus a shock of monumental proportions when the teenaged
+Carl Friedrich Gauss discovered how to construct a regular heptadeca­
+gon ( 17-gon) in 1796.
+
+http://www.jimloy.com/geometry/17-gon.gif
+
+Similar rectilineal figures are such as have their angles
+severally equal and the sides about the equal angles proportional .
+
+Making use of the Eudox­
+ean theory of Book V, Euclid proved, in Proposition VI .4, that if two tri­
+angles have their corresponding angles equal, then their corresponding
+sides must be proportional ; conversely, in Proposition V1 . 5 , he showed
+that if two triangles have their sides proportional, then their correspond­
+ing angles must be equal .
+
+If in a right-angled triangle a perpendicular be drawn
+from the right angle to the base, the triangles adjoining the perpendic­
+ular are similar both to the whole and to one another.
+
+A critical definition was that of a prime number, that is,
+a number greater than 1 that is divisible by (Euclid said, "measured by")
+only 1 and itself.
+
 </body>
