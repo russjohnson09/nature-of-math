@@ -19,55 +19,89 @@
 
 </head>
 <body>
+
+<p>
 Book I I explored what we now call "geometric algebra." That is, it
 framed in geometric terms certain relationships that now are most easily
 translated into algebraic equations . Of course, the notion of algebra was
 foreign to the Greeks, and its appearance as a formal system lay centuries
 in the future.
+</p>
 
+<p>
 PROPOSITION 11.4 If a straight line be cut at random, the square on the
 whole is equal to the squares on the segments and twice the rectangle
 contained by the segments .
+</p>
 
+<p>
 This is written more simply as $(a + b)^2= a^2 +b^2 + 2 ab = a^2 + 2ab + b^2$
+</p>
 
+<p>
 Yet the equivalence of his geo­metric statement and its algebraic counterpart is clear. Much of Book I I
 was o f this nature .
+</p>
 
-
+<p>
 nor did Book I I I contain the familiar results for a cirde's circumference
 $( C = \pi D)$ or area $(A = \pi r^2)$ . A full treatment of these latter topics would have to wait
 until Archamedias.
+</p>
 
-
+<p>
 In fact, while Euclid did not explicitly say so, most subsequent mathe­
 maticians assumed that his were the only constructible regular polygons
 and that any others were simply beyond the capability of compass and
 straightedge.
+</p>
 
-
+<p>
 It was thus a shock of monumental proportions when the teenaged
 Carl Friedrich Gauss discovered how to construct a regular heptadeca­
 gon ( 17-gon) in 1796.
+</p>
 
-http://www.jimloy.com/geometry/17-gon.gif
+<a href="http://www.jimloy.com/">
+  <img title="Powered by MathJax"
+    src="http://www.jimloy.com/geometry/17-gon.gif"
+    border="0" alt="17-gon" />
+</a>
 
+<p>
 Similar rectilineal figures are such as have their angles
 severally equal and the sides about the equal angles proportional .
+</p>
 
+<p>
 Making use of the Eudox­
 ean theory of Book V, Euclid proved, in Proposition VI .4, that if two tri­
 angles have their corresponding angles equal, then their corresponding
 sides must be proportional ; conversely, in Proposition V1 . 5 , he showed
 that if two triangles have their sides proportional, then their correspond­
 ing angles must be equal .
+</p>
 
+<p>
 If in a right-angled triangle a perpendicular be drawn
 from the right angle to the base, the triangles adjoining the perpendic­
 ular are similar both to the whole and to one another.
+</p>
 
+<p>
 A critical definition was that of a prime number, that is,
 a number greater than 1 that is divisible by (Euclid said, "measured by")
 only 1 and itself.
+</p>
+
+
+	
+
+<a href="http://www.mathjax.org/">
+  <img title="Powered by MathJax"
+    src="http://cdn.mathjax.org/mathjax/badge/badge-square.svg"
+    border="0" alt="Powered by MathJax" />
+</a>
+
 
 </body>
