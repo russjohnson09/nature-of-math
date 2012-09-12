@@ -1,3 +1,6 @@
+from timeit import Timer
+from math import factorial
+
 # Sieve of Eratosthenes
 # Code by David Eppstein, UC Irvine, 28 Feb 2002
 # http://code.activestate.com/recipes/117119/
@@ -36,18 +39,18 @@ def gen_primes():
 
         q += 1
 
-a = gen_primes()
 
-lst = []
-
-for i in range(1000):
-    lst.append(a.next())
-    
-counter = 1
-for i in lst:
-    if i + 2 in lst:
-        print str(counter) + ".\t" + str((i,i+1))
-        counter += 1
+if __name__ == "__main__":
+   a = gen_primes()
+   lst = []
+   for i in range(1000):
+       lst.append(a.next())
+   
+   counter = 1
+   for i in lst:
+       if i + 2 in lst:
+           print str(counter) + ".\t" + str((i,i+2))
+           counter += 1
         
         
     
