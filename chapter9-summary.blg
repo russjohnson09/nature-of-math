@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: chapter9-summary.aux
+The style file: plain.bst
+Database file #1: chapter9-summary.bib
+Warning--to sort, need author or key in basel
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            511 strings with 4351 characters,
+and the built_in function-call counts, 619 in all, are:
+= -- 55
+> -- 15
+< -- 0
++ -- 8
+- -- 4
+* -- 25
+:= -- 104
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 31
+empty$ -- 68
+format.name$ -- 4
+if$ -- 135
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 4
+newline$ -- 17
+num.names$ -- 4
+pop$ -- 22
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 20
+stack$ -- 0
+substring$ -- 16
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 1
+while$ -- 4
+width$ -- 4
+write$ -- 31
+(There was 1 warning)

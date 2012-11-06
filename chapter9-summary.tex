@@ -8,6 +8,7 @@
 %==============================
 \usepackage{microtype}
 \usepackage{setspace}
+\usepackage{natbib}
 %==============================
 %==============================
 \usepackage[english]{babel}
@@ -25,29 +26,9 @@ Chapter 7 Summary\\
 
 \begin{doublespace}
 
-Leonhard Euler was a remarkable man who's collected works filled over 70 large volumes. The size itself is a testament of the Euler's genius. His contributions in the 18th century has had a resounding impact on mathematics even today.
-
-Euler was born in Basel, Switzerland, in 1707. It is not a surprise that a main whose mathematical works make up such a big portion of what was written during the century would show signs of his genius at a very young age. Euler's father, a Calvinist preacher, worked out an arrangement whereby his Euler would study under Johann Bernoulli. Euler would do his best not to annoy Bernoulli with trivial problems. After studying under Bernoulli, Euler started publishing mathematical papers of high quality. Euler was still in his teens when he won a prize from the French Academy for his analysis of the optimal placement of masts on a ship. At this time, Euler had never actually seen a ship aside in real life.
-
-Unfortunately, Euler lost sight in one eye at a pretty young age and this blindness would eventually effect both eyes. Euler would not let this physical impairment impact his work. Even when he was completely blind he was still able to contribute to mathematics by dictating to an associate. Euler creates a contrast with Isaac Newton and shows us that genius does not always make you a bitter person. Perhaps his best-known text was the Introduction in Analysin Injinitorum of 1748. This classic matHematical exposition    
-has been compared to Euclid's Elements in that it surveyed the discov­eries of earlier mathematicians, organized and cleaned up the proofs, and did the job so well as to render most previous writings obsolete. To the Introduction he added a volume on differential calculus in 1755 and    
-three volumes on integral calculus in 1768-74 , thereby charting the gen­eral direction for mathematical analysis down to the present day.
-
-In all of his texts, Euler's exposition was quite lucid, and his mathe­matical notation was chosen so as to clarify, not obscure, the underlying ideas. Indeed, Euler's mathematical writings are the first that look truly modern to today's reader; this, of course, is not because he chose a mod­ern notation but because his influence was so pervasive that all subse­quent mathematicians adopted his style, notation, and format.
-
-Condorcet summed up Euler's approach to teaching in one concise phrase:
-
-\end{doublespace}
-\vspace{-5mm}
-\begin{quote}
-He preferred instructing his pupils to the little satisfaction of    
-amazing them.
-\end{quote}
-\vspace{-5mm}
-\begin{doublespace}
-
-Any discussion of Euler's mathematics somehow returns to his ''Opera Omnia'', those 73 volumes of collected papers . These contain the 886 books and articles-written variously in Latin, French, and German­ that he produced during his career.
-
+\section*{Leonhard Euler and the Basel Problem}
+Leonhard Euler was a remarkable man who's collected works filled over 70 large volumes. The size itself is a testament of the Euler's genius. His contributions in the 18th century has had a resounding impact on mathematics even today. One man noted that:
+%
 \end{doublespace}
 \vspace{-5mm}
 \begin{quote}
@@ -56,28 +37,76 @@ other than their discoverers, else half of analysis would be named for Euler.
 \end{quote}
 \vspace{-5mm}
 \begin{doublespace}
+%
+%\subsection*{Euler's Early Life}
+Euler was born in Basel, Switzerland, in 1707. It is not a surprise that a main whose mathematical works make up such a big portion of what was written during the century would show signs of his genius at a very young age. Euler's father, a Calvinist preacher, worked out an arrangement whereby Euler would study under Johann Bernoulli. Euler would do his best not to annoy Bernoulli with trivial problems. After studying under Bernoulli, Euler started publishing mathematical papers of high quality. Euler was still in his teens when he won a prize from the French Academy for his analysis of the optimal placement of masts on a ship. At this time, Euler had never actually seen a ship in real life.
 
-Leonhard Euler died suddenly on September 7, 1783.
+Unfortunately, Euler lost sight in one eye at a pretty young age and this blindness would eventually effect both eyes. Euler would not let this physical impairment have a negative impact his work. Even when he was completely blind he was still able to contribute to mathematics by dictating to an associate. Euler creates a contrast with Isaac Newton and shows us that genius does not always make you a bitter person. 
 
-
-
-This problem may or may not have been solved by Euler. It is sometimes referred to as the Basel Problem. 
-
-$\displaystyle \sum\limits_{k=1}^\infty \frac{1}{k^2}=1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\cdots=\frac{\pi^2}{6}$
-
-Another way of writing this uses the Riemann Zeta Function:
-
-$\displaystyle \zeta \left({2}\right) = \sum_{n \mathop = 1}^{\infty} {\frac 1 {n^2}} = \frac {\pi^2} 6$
-
-First, its history renders it an important and provocative result. Second, it was one of Euler's early triumphs, announced in 1734 during his first years at St. Petersburg; by all accounts, it did much to solidify his reputation for mathematical genius.
-
-While they knew it summed to a number less than 2, they had no idea what this sum was.      
-Apparently, the evaluation of this series mocked not only Jakob and Johann Bernoulli, but even Leibniz himself, not to mention the rest of the world's mathematical community.
-
-Euler's proof is dependent on   
-$\displaystyle \frac{\sin x}x = \left({1 - \frac{x^2}{\pi^2}}\right) \left({1 - \frac{x^2}{4 \pi^2}}\right) \left({1 - \frac{x^2}{9 \pi^2}}\right) \cdots = \prod_{n = 1}^\infty \left({1 - \frac{x^2}{n^2 \pi^2}}\right)$.
-Euler used the sine function to prove that        
-\[\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\cdots=\frac{\pi^2}{6}\]
-
+Perhaps his best-known text was the \emph{Introduction to Analysis of the Infinite} published in 1748. This work has been compared to Euclid's \emph{Elements} coming from the fact that it provided an overview of earlier mathematicians. It also organized and cleaned the proofs of these earlier mathematicians and did such a good job at it that \emph{Introduction to Analysis of the Infinite} rendered most previous writings obsolete.
+%
+In all of his texts, Euler's focus lied on choosing mathematical notation that would clarify the underlying ideas. Euler's mathematical writings are the first to look like modern math textbooks. This is because we are so heavily influenced by his writings and his style of mathematics is what we have adopted today.
+%
+Condorcet summed up Euler's approach to teaching in one concise phrase:
+%
 \end{doublespace}
+\vspace{-5mm}
+\begin{quote}
+He preferred instructing his pupils to the little satisfaction of    
+amazing them.
+\end{quote}
+\vspace{-5mm}
+\begin{doublespace}
+Leonhard Euler died on September 7, 1783.
+%
+\subsection*{Great Theorem}
+The problem in this book is referred to as the Basel problem after the hometown of Euler as well as of the Bernoulli family who unsuccessfully attacked the problem.\cite{weil_number_1984}
+%
+This theorem states the following:
+%
+\[\displaystyle \sum\limits_{k=1}^\infty \frac{1}{k^2}=1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\cdots=\frac{\pi^2}{6}\]
+%
+Another way of writing this uses the Riemann Zeta Function:\cite{knuth_art_1997}
+%
+\[\displaystyle \zeta \left({2}\right) = \sum_{n \mathop = 1}^{\infty} {\frac 1 {n^2}} = \frac {\pi^2} 6\]
+%
+While the Bernoulli brothers knew that it summed to less than 2, they still could not conjecture as to what it was. We will go over the proof provided in the book here.
+%
+\begin{proof}
+Let 
+\[f(x) = 1-\frac{x^2}{3!}+\frac{x^4}{5!}-\frac{x^6}{7!}+\frac{x^8}{9!}-\cdots.\]
+We note that 
+\[f(0)=1-\frac{0}{3!}+\frac{0}{5!}-\frac{0}{7!}+\frac{0}{9!}-\cdots = 1.\]
+Now for all $x\neq 0$ $\frac{x}{x}=1$. Therefore,
+\[ f(x) = \frac{x}{x}f(x)=\frac{x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\frac{x^9}{9!}-\cdots}{x}.\]
+From the analytic definition of sine:
+\[ \sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots = \sum_{n=0}^\infty \frac{(-1)^n}{(2n+1)!}x^{2n+1}.\]
+Therefore, for all $x\neq 0$
+\[f(x)=\frac{\sin x}{x}.\]
+From Euler's formula for the sine function we know that
+\begin{align*}
+f(x) &= \left( 1 - \frac{x}{\pi} \right)  \left( 1 + \frac{x}{\pi} \right)  \left( 1 - \frac{x}{2\pi} \right)  \left( 1 + \frac{x}{2\pi} \right)  \left( 1 - \frac{x}{3\pi} \right)  \left( 1 + \frac{x}{3\pi} \right) \cdots \\ 
+&= \left[ 1 - \frac{x^2}{\pi^2} \right]  \left[ 1 - \frac{x^2}{4\pi^2} \right]  \left[ 1 - \frac{x^2}{9\pi^2} \right]  \left[ 1 - \frac{x^2}{16\pi^2} \right]\cdots.
+\end{align*}
+Expanding this infinite product we get
+\[\left[ 1 - \frac{x^2}{\pi^2} \right]  \left[ 1 - \frac{x^2}{4\pi^2} \right]  \left[ 1 - \frac{x^2}{9\pi^2} \right]  \left[ 1 - \frac{x^2}{16\pi^2} \right]\cdots =\]
+\[1 - \left( \frac{1}{\pi^2} + \frac{1}{4\pi^2} + \frac{1}{9\pi^2} + \frac{1}{16\pi^2} + \cdots \right)x^2 + \left(\dots\right)x^4-\cdots.\]
+%\end{align*}
+%
+From this 
+\[1-\frac{x^2}{3!}+\frac{x^4}{5!}-\frac{x^6}{7!}+\frac{x^8}{9!}-\cdots = 1 - \left( \frac{1}{\pi^2} + \frac{1}{4\pi^2} + \frac{1}{9\pi^2} + \frac{1}{16\pi^2} + \cdots \right)x^2 + \left(\dots\right)x^4-\cdots.\]
+Now the first element in each infinite sum is equal to the first element in the second and so on. From this we know that
+\[\frac{x^2}{3!} =  \left( \frac{1}{\pi^2} + \frac{1}{4\pi^2} + \frac{1}{9\pi^2} + \frac{1}{16\pi^2} + \cdots \right)x^2.\]
+Dividing each side of this equation by $x^2$ and factoring out $\dfrac{1}{\pi^2}$ on the right side of the equation we obtain
+\[\frac{1}{6} = \frac{1}{\pi^2}\left( 1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \cdots \right).\]
+Multiplying each side of this equation by $\pi^2$ we obtain
+\[\frac{\pi^2}{6} = \left( 1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \cdots \right).\]
+Therefore,
+\[\zeta \left({2}\right) = \sum\limits_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}.\]
+\end{proof}\cite{basel}
+\end{doublespace}
+
+\bibliographystyle{plain}
+\bibliography{chapter9-summary}
+
 \end{document}
