@@ -6,3 +6,5 @@ auto-git.py
 *.log
 *.aux
 *.pdf
+bootstrap
+[.][^g]*
