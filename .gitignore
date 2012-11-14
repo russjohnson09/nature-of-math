@@ -6,3 +6,7 @@ auto-git.py
 *.log
 *.aux
 *.pdf
+[.][^g]*
+*.bbl
+*.blg
+*.pyc
